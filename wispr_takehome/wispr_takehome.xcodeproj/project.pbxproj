@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0EBDDBE2C26053A00B10972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBDDBD2C26053A00B10972 /* AppDelegate.swift */; };
+		B0EBDDC02C26053A00B10972 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBDDBF2C26053A00B10972 /* SceneDelegate.swift */; };
+		B0EBDDC22C26053A00B10972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBDDC12C26053A00B10972 /* ViewController.swift */; };
+		B0EBDDC72C26053C00B10972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EBDDC62C26053C00B10972 /* Assets.xcassets */; };
+		B0EBDDCA2C26053C00B10972 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B0EBDDC92C26053C00B10972 /* Base */; };
+		B0EBDDD32C26072800B10972 /* FleksySDK in Frameworks */ = {isa = PBXBuildFile; productRef = B0EBDDD22C26072800B10972 /* FleksySDK */; };
+		B0EBDDE52C2B842100B10972 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBDDE42C2B842100B10972 /* KeyboardViewController.swift */; };
+		B0EBDDE92C2B842100B10972 /* wispr_keyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B0EBDDE22C2B842100B10972 /* wispr_keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0EBDDE72C2B842100B10972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0EBDDB22C26053A00B10972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0EBDDE12C2B842100B10972;
+			remoteInfo = wispr_keyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0EBDDED2C2B842100B10972 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B0EBDDE92C2B842100B10972 /* wispr_keyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B0EBDDBA2C26053A00B10972 /* wispr_takehome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wispr_takehome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EBDDBD2C26053A00B10972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0EBDDBF2C26053A00B10972 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B0EBDDC12C26053A00B10972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0EBDDC62C26053C00B10972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0EBDDC92C26053C00B10972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0EBDDCB2C26053C00B10972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EBDDE22C2B842100B10972 /* wispr_keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = wispr_keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EBDDE42C2B842100B10972 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		B0EBDDE62C2B842100B10972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0EBDDB72C26053A00B10972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EBDDD32C26072800B10972 /* FleksySDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EBDDDF2C2B842100B10972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0EBDDB12C26053A00B10972 = {
+			isa = PBXGroup;
+			children = (
+				B0EBDDBC2C26053A00B10972 /* wispr_takehome */,
+				B0EBDDE32C2B842100B10972 /* wispr_keyboard */,
+				B0EBDDBB2C26053A00B10972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0EBDDBB2C26053A00B10972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0EBDDBA2C26053A00B10972 /* wispr_takehome.app */,
+				B0EBDDE22C2B842100B10972 /* wispr_keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0EBDDBC2C26053A00B10972 /* wispr_takehome */ = {
+			isa = PBXGroup;
+			children = (
+				B0EBDDBD2C26053A00B10972 /* AppDelegate.swift */,
+				B0EBDDBF2C26053A00B10972 /* SceneDelegate.swift */,
+				B0EBDDC12C26053A00B10972 /* ViewController.swift */,
+				B0EBDDC62C26053C00B10972 /* Assets.xcassets */,
+				B0EBDDC82C26053C00B10972 /* LaunchScreen.storyboard */,
+				B0EBDDCB2C26053C00B10972 /* Info.plist */,
+			);
+			path = wispr_takehome;
+			sourceTree = "<group>";
+		};
+		B0EBDDE32C2B842100B10972 /* wispr_keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B0EBDDE42C2B842100B10972 /* KeyboardViewController.swift */,
+				B0EBDDE62C2B842100B10972 /* Info.plist */,
+			);
+			path = wispr_keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0EBDDB92C26053A00B10972 /* wispr_takehome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EBDDCE2C26053C00B10972 /* Build configuration list for PBXNativeTarget "wispr_takehome" */;
+			buildPhases = (
+				B0EBDDB62C26053A00B10972 /* Sources */,
+				B0EBDDB72C26053A00B10972 /* Frameworks */,
+				B0EBDDB82C26053A00B10972 /* Resources */,
+				B0EBDDED2C2B842100B10972 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0EBDDE82C2B842100B10972 /* PBXTargetDependency */,
+			);
+			name = wispr_takehome;
+			packageProductDependencies = (
+				B0EBDDD22C26072800B10972 /* FleksySDK */,
+			);
+			productName = wispr_takehome;
+			productReference = B0EBDDBA2C26053A00B10972 /* wispr_takehome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0EBDDE12C2B842100B10972 /* wispr_keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EBDDEA2C2B842100B10972 /* Build configuration list for PBXNativeTarget "wispr_keyboard" */;
+			buildPhases = (
+				B0EBDDDE2C2B842100B10972 /* Sources */,
+				B0EBDDDF2C2B842100B10972 /* Frameworks */,
+				B0EBDDE02C2B842100B10972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wispr_keyboard;
+			productName = wispr_keyboard;
+			productReference = B0EBDDE22C2B842100B10972 /* wispr_keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0EBDDB22C26053A00B10972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B0EBDDB92C26053A00B10972 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B0EBDDE12C2B842100B10972 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = B0EBDDB52C26053A00B10972 /* Build configuration list for PBXProject "wispr_takehome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0EBDDB12C26053A00B10972;
+			packageReferences = (
+				B0EBDDD12C26072800B10972 /* XCRemoteSwiftPackageReference "FleksySDK-iOS" */,
+			);
+			productRefGroup = B0EBDDBB2C26053A00B10972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0EBDDB92C26053A00B10972 /* wispr_takehome */,
+				B0EBDDE12C2B842100B10972 /* wispr_keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0EBDDB82C26053A00B10972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EBDDC72C26053C00B10972 /* Assets.xcassets in Resources */,
+				B0EBDDCA2C26053C00B10972 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EBDDE02C2B842100B10972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0EBDDB62C26053A00B10972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EBDDC22C26053A00B10972 /* ViewController.swift in Sources */,
+				B0EBDDBE2C26053A00B10972 /* AppDelegate.swift in Sources */,
+				B0EBDDC02C26053A00B10972 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EBDDDE2C2B842100B10972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EBDDE52C2B842100B10972 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0EBDDE82C2B842100B10972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0EBDDE12C2B842100B10972 /* wispr_keyboard */;
+			targetProxy = B0EBDDE72C2B842100B10972 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0EBDDC82C26053C00B10972 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0EBDDC92C26053C00B10972 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0EBDDCC2C26053C00B10972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0EBDDCD2C26053C00B10972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0EBDDCF2C26053C00B10972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZSL76K4WK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wispr_takehome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "steven-worrall.wispr-takehome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0EBDDD02C26053C00B10972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZSL76K4WK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wispr_takehome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "steven-worrall.wispr-takehome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0EBDDEB2C2B842100B10972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZSL76K4WK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wispr_keyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = wispr_keyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "steven-worrall.wispr-takehome.wispr-keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0EBDDEC2C2B842100B10972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZSL76K4WK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wispr_keyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = wispr_keyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "steven-worrall.wispr-takehome.wispr-keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0EBDDB52C26053A00B10972 /* Build configuration list for PBXProject "wispr_takehome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EBDDCC2C26053C00B10972 /* Debug */,
+				B0EBDDCD2C26053C00B10972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EBDDCE2C26053C00B10972 /* Build configuration list for PBXNativeTarget "wispr_takehome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EBDDCF2C26053C00B10972 /* Debug */,
+				B0EBDDD02C26053C00B10972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EBDDEA2C2B842100B10972 /* Build configuration list for PBXNativeTarget "wispr_keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EBDDEB2C2B842100B10972 /* Debug */,
+				B0EBDDEC2C2B842100B10972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B0EBDDD12C26072800B10972 /* XCRemoteSwiftPackageReference "FleksySDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FleksySDK/FleksySDK-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.25.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B0EBDDD22C26072800B10972 /* FleksySDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0EBDDD12C26072800B10972 /* XCRemoteSwiftPackageReference "FleksySDK-iOS" */;
+			productName = FleksySDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B0EBDDB22C26053A00B10972 /* Project object */;
+}
