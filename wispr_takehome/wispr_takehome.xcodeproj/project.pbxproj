@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0B7EC482C2B9089005700A1 /* TypefaceSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B7EC472C2B9089005700A1 /* TypefaceSelectorView.swift */; };
+		B0B7EC4A2C2B9150005700A1 /* TypefaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B7EC492C2B9150005700A1 /* TypefaceCell.swift */; };
+		B0B7EC4D2C2B92D7005700A1 /* TypefaceSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B7EC4C2C2B92D7005700A1 /* TypefaceSelectorViewModel.swift */; };
+		B0B7EC4F2C2B9405005700A1 /* Typefaces.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B7EC4E2C2B9405005700A1 /* Typefaces.json */; };
+		B0B7EC512C2B9434005700A1 /* TypefaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B7EC502C2B9434005700A1 /* TypefaceModel.swift */; };
 		B0EBDDBE2C26053A00B10972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBDDBD2C26053A00B10972 /* AppDelegate.swift */; };
 		B0EBDDC02C26053A00B10972 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBDDBF2C26053A00B10972 /* SceneDelegate.swift */; };
 		B0EBDDC22C26053A00B10972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBDDC12C26053A00B10972 /* ViewController.swift */; };
@@ -42,6 +47,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B0B7EC472C2B9089005700A1 /* TypefaceSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypefaceSelectorView.swift; sourceTree = "<group>"; };
+		B0B7EC492C2B9150005700A1 /* TypefaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypefaceCell.swift; sourceTree = "<group>"; };
+		B0B7EC4C2C2B92D7005700A1 /* TypefaceSelectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypefaceSelectorViewModel.swift; sourceTree = "<group>"; };
+		B0B7EC4E2C2B9405005700A1 /* Typefaces.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Typefaces.json; sourceTree = "<group>"; };
+		B0B7EC502C2B9434005700A1 /* TypefaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypefaceModel.swift; sourceTree = "<group>"; };
 		B0EBDDBA2C26053A00B10972 /* wispr_takehome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wispr_takehome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EBDDBD2C26053A00B10972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0EBDDBF2C26053A00B10972 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +83,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0B7EC4B2C2B92B3005700A1 /* Typeface */ = {
+			isa = PBXGroup;
+			children = (
+				B0B7EC472C2B9089005700A1 /* TypefaceSelectorView.swift */,
+				B0B7EC492C2B9150005700A1 /* TypefaceCell.swift */,
+				B0B7EC4C2C2B92D7005700A1 /* TypefaceSelectorViewModel.swift */,
+				B0B7EC502C2B9434005700A1 /* TypefaceModel.swift */,
+				B0B7EC4E2C2B9405005700A1 /* Typefaces.json */,
+			);
+			path = Typeface;
+			sourceTree = "<group>";
+		};
 		B0EBDDB12C26053A00B10972 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				B0EBDDE42C2B842100B10972 /* KeyboardViewController.swift */,
+				B0B7EC4B2C2B92B3005700A1 /* Typeface */,
 				B0EBDDE62C2B842100B10972 /* Info.plist */,
 			);
 			path = wispr_keyboard;
@@ -209,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B7EC4F2C2B9405005700A1 /* Typefaces.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B7EC4D2C2B92D7005700A1 /* TypefaceSelectorViewModel.swift in Sources */,
+				B0B7EC482C2B9089005700A1 /* TypefaceSelectorView.swift in Sources */,
+				B0B7EC4A2C2B9150005700A1 /* TypefaceCell.swift in Sources */,
+				B0B7EC512C2B9434005700A1 /* TypefaceModel.swift in Sources */,
 				B0EBDDE52C2B842100B10972 /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
