@@ -10,8 +10,8 @@ The keyboard I implemented has a pull out menu that allows users to select betwe
 
 ## Demo
 <p align="center">
-    <a href="https://github.com/StevenWorrall/wispr/tree/main/app_demo.gif"><img src="https://github.com/StevenWorrall/wispr/tree/main/app_demo.gif" height=400px width=auto ></a>
-    <a href="https://github.com/StevenWorrall/wispr/tree/main/keyboard_demo.gif"><img src="https://github.com/StevenWorrall/wispr/tree/main/keyboard_demo.gif" height=400px width=auto ></a>
+    <a href="https://github.com/StevenWorrall/wispr/blob/main/app_demo.gif"><img src="https://github.com/StevenWorrall/wispr/blob/main/app_demo.gif" height=400px width=auto ></a>
+    <a href="https://github.com/StevenWorrall/wispr/blob/main/keyboard_demo.gif"><img src="https://github.com/StevenWorrall/wispr/blob/main/keyboard_demo.gif" height=400px width=auto ></a>
 </p>
 
 ## Running the Project
@@ -34,7 +34,7 @@ func convert(_ text: String) -> String {
 }
 ```
 
-In order to get the JSON data to our view, I process it in the [View Model](https://github.com/StevenWorrall/wispr/tree/main/wispr_takehome/wispr_keyboard/Typeface/TypefaceSelectorViewModell.swift) which just reads the JSON file and parses it into the aforementioned TypefaceModel.
+In order to get the JSON data to our view, I process it in the [View Model](https://github.com/StevenWorrall/wispr/blob/main/wispr_takehome/wispr_keyboard/Typeface/TypefaceSelectorViewModel.swift) which just reads the JSON file and parses it into the aforementioned TypefaceModel.
 
 All of the typefaces are put into an array and shown to the user in a simple Collection View shown in [TypefaceSelectorView](https://github.com/StevenWorrall/wispr/tree/main/wispr_takehome/wispr_keyboard/Typeface/TypefaceSelectorView.swift).
 
